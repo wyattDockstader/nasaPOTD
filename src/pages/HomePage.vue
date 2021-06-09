@@ -1,4 +1,5 @@
 <template>
+  <Search />
   <Apod />
 </template>
 

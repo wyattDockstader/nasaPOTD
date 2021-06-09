@@ -4,7 +4,7 @@
       <div class="col-8 p-3" v-if="state.pic">
         <img :src="apod.url" alt="this broken man">
       </div>
-      <div class="col-4 p-3">
+      <div class="col-4 p-3" v-if="state.pic">
         <h3>{{ apod.title }}</h3>
         <p>{{ apod.explination }}</p>
       </div>
